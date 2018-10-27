@@ -8,6 +8,7 @@ Defines topics about probability.
 **Definition**: *Sample Space* - The set of all possible distinct outcumes to a random experiment
 
 **Definition**: *Classical definition* - the probability of some event, provided that all events are equally likely, is $$\frac{\text{number of ways the event can occur}}{\text{number of outcomes in S}}$$
+
 **Definition** : *Relative frequency definition* - the probability of an event is the proportion of times the event occurs in a very long series of repetitions of an experiment or process
 
 **Definition**: *Subjective probability definition* - the probability of an event is a measure of how sure the person making the statement is that the event will happen
