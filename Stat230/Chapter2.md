@@ -1,7 +1,7 @@
 # 2. Mathematical Probability Models
 
 ## Summary
-
+Solving for the probability of an event by counting the simple events in the sample space.
 
 ## 2.1 Sample Spaces and Probability
 **Definition**: *Experiment* - a phenomenon or process which is repeatable (in theory) with defined events or outcomes ($A_1, A_2, A_3, \ldots$ )
