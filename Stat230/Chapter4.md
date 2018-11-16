@@ -2,7 +2,7 @@
 
 ## Summary
 
-
+Covers Principles of Inclusion Exclusion, Bayes Law, Law of Total Probability, general math series.
 
 
 ## 4.1 General Methods
@@ -87,6 +87,7 @@ $$ P(A_1 \cup A_2 \cup \ldots \cup A_n) = \sum_{i = 1}^{n}P(A_i) $$
 
 
 
+
 2. Take two derivatives of sum of infinite series.
 
 3. $$
@@ -96,6 +97,7 @@ $$ P(A_1 \cup A_2 \cup \ldots \cup A_n) = \sum_{i = 1}^{n}P(A_i) $$
    &= 1
    \end{align*}
    $$
+
 
 
 ## 4.7 Chapter 4 Problems
