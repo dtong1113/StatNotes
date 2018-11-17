@@ -2,6 +2,8 @@
 
 ## Summary
 
+Introduction to probability functions, random variables and probability distributions (discrete, hypergeometric, negative binomial, binomial, geometric, poisson)
+
 ## 5.1 Random Variables and Probability Functions
 
 **Definition**: *Random variable* - a numerical-valued variable that represents outcomes in an experiment or random process (e.g. X = # of heads when flipping a coin 3 times has a range of [0, 3])
