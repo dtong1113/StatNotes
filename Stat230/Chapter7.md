@@ -8,7 +8,7 @@ $Var(x) = E[(X - \mu)^2] = E(X^2) - \mu^2$
 
 $E(Binomial(n, p)) = np$, $Var(Binomial(n, p)) = np(1-p)$
 
-$E(Poisson(\lambda)) = \lambda t = \mu = Var(Poisson(\lambda))$ 
+$E(Poisson(\mu)) = \lambda t = \mu = Var(Poisson(\mu))​$ 
 
 ## 7.1 Summarizing Data on Random Variables
 
