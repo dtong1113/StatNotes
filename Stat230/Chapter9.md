@@ -2,7 +2,7 @@
 
 ## Summary
 
-We define probability functions, independence, conditional probability in terms of Multi-variate distributions (similar to events)
+We define probability functions, independence, conditional probability in terms of Multi-variate distributions (similar to events). We also cover properties of sums of Normal distributions and indicator random variables. 
 
 ## 9.1 Basic Terminology and Techniques
 
@@ -92,4 +92,16 @@ Note that since $Cov(X,Y)$ is dependent on the values $X$ and $Y$ take, the actu
    b) If $X_1, X_2, \ldots, X_n$ are independent and all have the same variance $\sigma^2$, then $Var(\overline{X}) = \frac{\sigma^2}{n}$
 
 ## 9.6 Linear Combinations of Independent Normal Random Variables
+
+**Theorem**: Linear Combinations of Independent Normal Random Variables
+
+1. Let $X \sim N(\mu, \sigma^2)$ and $Y = aX + b$ where $a$ and $b$ are constant real numbers. Then $Y \sim N(a\mu + b, a^2 \sigma^2)$.
+2. Let $X \sim N(\mu_1, \sigma_1^2) and Y \sim N(\mu_2, \sigma_2^2)$ independently, and let $a$ and $b$ be constants. Then $aX + bY \sim N(a\mu_1 + b\mu_2, a^2\sigma_1^2 + b^2\sigma_2^2)$. In general, then $\sum_{i = 1}^n a_iX_i \sim N(\sum_{i=1}^n a_i \mu_i, \sum_{i = 1}^na_i^2\sigma_i^2)$
+3. Let $X_1, X_2, \ldots, X_n$ be independent $N(\mu, \sigma^2)$ random variables. Then $\sum_{i = 1}^n X_i \sim N(n \mu, n \sigma^2)$ and $\bar{X} \sim N(\mu, \sigma^2/n) $.
+
+## 9.7 Indicator Random Variables
+
+The results for linear combinations of random variables provide a way of breaking up more complicated problems, involving mean and variance, into simpler pieces with indicator variables.
+
+**Definition**: _indicator variable_ - is a binary variable that indicates whether or not some event occurs
 
